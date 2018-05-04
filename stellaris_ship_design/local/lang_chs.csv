@@ -1,0 +1,91 @@
+ID,Display name
+ARC_EMITTER_1,电弧发射器
+ARC_EMITTER_2,Focused Arc Emitter
+SMALL_DISRUPTOR_1,Small Disruptor
+MEDIUM_DISRUPTOR_1,Medium Disruptor
+SMALL_DISRUPTOR_2,Small Ion Disruptor
+MEDIUM_DISRUPTOR_2,Medium Ion Disruptor
+SMALL_DISRUPTOR_3,Small Phased Disruptor
+MEDIUM_DISRUPTOR_3,Medium Phased Disruptor
+ENERGY_LANCE_1,Particle Lance
+ENERGY_LANCE_2,Tachyon Lance
+ENERGY_TORPEDO_1,Proton Launchers
+ENERGY_TORPEDO_2,Neutron Launchers
+SMALL_ED_WEAPON,Small Matter Disintegrator
+MEDIUM_ED_WEAPON,Medium Matter Disintegrator
+LARGE_ED_WEAPON,Large Matter Disintegrator
+SMALL_RED_LASER,Small Red Laser
+MEDIUM_RED_LASER,Medium Red Laser
+LARGE_RED_LASER,Large Red Laser
+SMALL_BLUE_LASER,Small Blue Laser
+MEDIUM_BLUE_LASER,Medium Blue Laser
+LARGE_BLUE_LASER,Large Blue Laser
+SMALL_UV_LASER,Small UV Laser
+MEDIUM_UV_LASER,Medium UV Laser
+LARGE_UV_LASER,Large UV Laser
+SMALL_XRAY_LASER,Small X-Ray Laser
+MEDIUM_XRAY_LASER,Medium X-Ray Laser
+LARGE_XRAY_LASER,Large X-Ray Laser
+SMALL_GAMMA_LASER,Small Gamma Laser
+MEDIUM_GAMMA_LASER,Medium Gamma Laser
+LARGE_GAMMA_LASER,Large Gamma Laser
+SMALL_MINING_LASER,Small Cutting Laser
+MEDIUM_MINING_LASER,Medium Cutting Laser
+SMALL_PLASMA_1,Small Plasma Thrower
+MEDIUM_PLASMA_1,Medium Plasma Thrower
+LARGE_PLASMA_1,Large Plasma Thrower
+SMALL_PLASMA_2,Small Plasma Accelerator
+MEDIUM_PLASMA_2,Medium Plasma Accelerator
+LARGE_PLASMA_2,Large Plasma Accelerator
+SMALL_PLASMA_3,Small Plasma Cannon
+MEDIUM_PLASMA_3,Medium Plasma Cannon
+LARGE_PLASMA_3,Large Plasma Cannon
+SPACE_CLOUD_LIGHTNING,Cloud Lightning
+SPACE_WHALE_WEAPON,Energy Siphon
+AUTOCANNON_1,Autocannon
+AUTOCANNON_2,Ripper Autocannon
+AUTOCANNON_3,Stormfire Autocannon
+KINETIC_ARTILLERY_1,Kinetic Battery
+KINETIC_ARTILLERY_2,Kinetic Artillery
+MASS_ACCELERATOR_1,Mega Cannon
+MASS_ACCELERATOR_2,Giga Cannon
+SMALL_MASS_DRIVER_1,Small Mass Driver
+MEDIUM_MASS_DRIVER_1,Medium Mass Driver
+LARGE_MASS_DRIVER_1,Large Mass Driver
+SMALL_MASS_DRIVER_2,Small Coilgun
+MEDIUM_MASS_DRIVER_2,Medium Coilgun
+LARGE_MASS_DRIVER_2,Large Coilgun
+SMALL_MASS_DRIVER_3,Small Railgun
+MEDIUM_MASS_DRIVER_3,Medium Railgun
+LARGE_MASS_DRIVER_3,Large Railgun
+SMALL_MASS_DRIVER_4,Small Advanced Railgun
+MEDIUM_MASS_DRIVER_4,Medium Advanced Railgun
+LARGE_MASS_DRIVER_4,Large Advanced Railgun
+SMALL_MASS_DRIVER_5,Small Gauss Cannon
+MEDIUM_MASS_DRIVER_5,Medium Gauss Cannon
+LARGE_MASS_DRIVER_5,Large Gauss Cannon
+MISSILE_1,Nuclear Missiles
+MISSILE_2,Fusion Missiles
+MISSILE_3,Antimatter Missiles
+MISSILE_4,Quantum Missiles
+MISSILE_5,Marauder Missiles
+LARGE_SCOURGE_MISSILE_1,Large Scourge Missile
+SWARMER_MISSILE_1,Swarmer Missiles
+SWARMER_MISSILE_2,Whirlwind Missiles
+TORPEDO_1,Space Torpedoes
+TORPEDO_2,Armored Torpedoes
+TORPEDO_3,Devastator Torpedoes
+AMOEBA_STRIKE_CRAFT_1,Amoeba Flagella
+LARGE_SCOUT_HANGAR_1,Scout Wing
+STRIKE_CRAFT_HANGAR_1,Basic Strike Craft
+STRIKE_CRAFT_HANGAR_2,Improved Strike Craft
+STRIKE_CRAFT_HANGAR_3,Advanced Strike Craft
+SWARM_STRIKE_CRAFT_1,Swarm Strikers
+FLAK_BATTERY_1,Flak Battery
+FLAK_BATTERY_2,Flak Cannons
+FLAK_BATTERY_3,Flak Artillery
+POINT_DEFENCE_1,Sentinel Point-Defense
+POINT_DEFENCE_2,Barrier Point-Defense
+POINT_DEFENCE_3,Guardian Point-Defense
+PERDITION_BEAM_TITAN,Perdition Beam
+PERDITION_BEAM_ION,Ion Cannon
