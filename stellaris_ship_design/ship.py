@@ -2,7 +2,7 @@ from stellaris_ship_design.constants import *
 from stellaris_ship_design.object import *
 
 class Ship(Object):
-    class_ = SHIPT_CLASSES.COVETTE
+    class_ = SHIP_CLASSES.CORVETTE
     sections = {}
     cmd_pts = 0
     cost = 0
