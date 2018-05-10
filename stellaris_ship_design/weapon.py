@@ -1,25 +1,20 @@
 from stellaris_ship_design.constants import *
 from stellaris_ship_design.object import *
-from stellaris_ship_design.local import *
 
 
-class Weapon(Object):
-    size = ''
-    cost = 0.0
-    power = 0.0
+class Weapon(Equipment):
     avg_damage = 0.0
     cooldown = 0.0
     range = 0.0
     accuracy = 0.0
     tracking = 0.0
-    target = TARGET_TYPE.NONE
+    target = None
 
     def __init__(self, id_, size, cost, power, avg_damage, cooldown, range_,
                  accuracy, tracking, modifiers=None):
-        super().__init__(id_, modifiers)
-        self.size = size
-        self.cost = cost
-        self.power = power
+        if type(size) == str:
+            size = WEAPON_SIZES(size)
+        super().__init__(id_, size, cost, power, modifiers)
         self.avg_damage = avg_damage
         self.cooldown = cooldown
         self.range = range_
@@ -28,9 +23,6 @@ class Weapon(Object):
 
     def set_target(self, target: TARGET_TYPE):
         self.target = target
-
-    def __str__(self):
-        return '<%s> %s' % (type(self).__name__, local(self.id))
 
 
 class WeaponTargetModifier(Modifier):

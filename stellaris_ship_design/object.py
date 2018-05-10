@@ -1,3 +1,6 @@
+from stellaris_ship_design.local import local
+
+
 class Object:
     id = ''
     modifiers = []
@@ -47,15 +50,18 @@ class Object:
         # for child in self.children:
         #     child.add_modifier(modifier)
 
+    def __str__(self):
+        return '<%s> %s' % (type(self).__name__, local(self.id))
+
 
 class Modifier:
     suitable_type = Object
+    desc = ''  # modifier description displayed to user
 
     def modify(self, obj: suitable_type):
         # a callable method that takes an object to modify
         pass
 
-    desc = ''  # modifier description displayed to user
 
     def __init__(self, suitable_type: type = Object,
                  modify: callable = None,
@@ -67,3 +73,20 @@ class Modifier:
 
     def __str__(self):
         return '<%s> %s' % (type(self).__name__, self.desc)
+
+
+class Equipment(Object):  # Abstract super class for Weapons and Utilities
+    size = None
+    cost = 0.0
+    power = 0.0
+
+    # TODO
+
+    def __init__(self, _id, size, cost, power, modifiers=None):
+        super().__init__(_id, modifiers)
+        if type(size) == str:
+            pass  # The classes that extends Equipment should accept 'str' type
+            # as the input of parameter 'size', and convert it to a constant
+        self.size = size
+        self.cost = cost
+        self.power = power
